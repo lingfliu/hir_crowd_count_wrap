@@ -2,7 +2,7 @@ version: '3.8' # 这个是什么版本?
 
 services:
   app:
-    image: lingfliu-docker.pkg.coding.net/ucs/docker/hir_crowd_count_wrap:${VERSION}
+    image: hir_crowd_count_wrap:${VERSION}
     container_name: hir_crowd_count_wrap
     restart: always
     ports:
